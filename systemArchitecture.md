@@ -25,7 +25,7 @@ This document outlines the technical architecture for the Si-LINK mobile applica
 
 The system is designed as a set of services communicating via REST APIs and WebSockets.
 
-![A simple diagram showing the flow: Mobile App communicates with the Main API. The Main API communicates with the User Database, the Speech-to-Text API, and the Sign-to-Text AI Model.](https://i.imgur.com/g0i8q8A.png)
+![A simple diagram showing the flow: Mobile App communicates with the Main API. The Main API communicates with the User Database, the Speech-to-Text API, and the Sign-to-Text AI Model.](https://miro.com/app/board/uXjVJxTeN9k=/?share_link_id=128951967659)
 **Flow 1: Sign-to-Text (User 1 is Signing)**
 1.  **Mobile App (Flutter):** Captures video frames from the camera.
 2.  **Mobile App (Flutter):** Streams these frames (or processed keypoints) to the backend.
